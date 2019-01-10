@@ -33,6 +33,6 @@ public class ListenerTest {
             }
         });
         core.run(OneTest.class);
-        assertEquals("first second X", log);
+        assertEquals("first second", log);
     }
 }
